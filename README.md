@@ -9,7 +9,7 @@ KeywordCounter
 Run 
 
 ```
-$ java KeywordCounter /path/to/java/project
+$ java silly.metrics.KeywordCounter /path/to/java/project
 ```
 
 ... and observe the number of Java keywords used in your project. For instance, running this on http://www.jooq.org:
