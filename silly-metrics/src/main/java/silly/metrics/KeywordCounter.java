@@ -222,6 +222,7 @@ public class KeywordCounter {
             RandomAccessFile f = new RandomAccessFile(file, "r");
             byte[] contents = new byte[(int) f.length()];
             f.readFully(contents);
+            f.close();
             String content = new String(contents);
 
             char c;
